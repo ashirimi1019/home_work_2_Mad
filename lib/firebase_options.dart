@@ -52,11 +52,12 @@ class DefaultFirebaseOptions {
     }
   }
 
+  /// ⚠️ Sensitive values removed.
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBCjAIaJl0OIjdq1xoaLyVCxqVTtTj49kw',
-    appId: '1:480601990521:android:ef2c198bc5b6bb424ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
+    apiKey: '***REDACTED_API_KEY***',
+    appId: '***REDACTED_APP_ID***',
+    messagingSenderId: '***REDACTED_SENDER_ID***',
+    projectId: 'mad-inclass14-ashir', // safe to keep
+    storageBucket: 'mad-inclass14-ashir.firebasestorage.app', // safe to keep
   );
 }
